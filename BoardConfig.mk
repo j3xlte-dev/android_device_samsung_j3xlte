@@ -37,7 +37,7 @@ TARGET_OTA_ASSERT_DEVICE := j3xlte,j3xltedd,j3xltedx,j3xltejt,j3xlteub,j3xnlte,j
 
 # Filesystem
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 20971520
-BOARD_FLASH_BLOCK_SIZE             := 131072
+BOARD_FLASH_BLOCK_SIZE             := 1024
 TARGET_USERIMAGES_USE_EXT4         := true
 BOARD_HAS_NO_REAL_SDCARD           := true
 RECOVERY_SDCARD_ON_DATA            := true
