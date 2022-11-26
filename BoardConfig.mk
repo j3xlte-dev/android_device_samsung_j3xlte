@@ -64,6 +64,8 @@ BOARD_MKBOOTIMG_ARGS   += --tags_offset $(BOARD_TAGS_OFFSET)
 
 # Recovery
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
+RECOVERY_GRAPHICS_FORCE_SINGLE_BUFFER := true
+
 
 # TeamWin Recovery
 TW_THEME                := portrait_hdpi
